@@ -47,6 +47,10 @@ twine upload dist/*
 
 8) Verify again the pydeck installed from the main pypi works in the environment above.
 
+9) Update the contents of `./conda.recipe` in this directory, using the diff between the current meta.yml and `conda skeleton pydeck`. Follow the steps documented [here](https://docs.anaconda.com/anaconda-cloud/user-guide/tasks/work-with-packages/#uploading-conda-packages)
+
+10) Test that the package works locally with `conda build pydeck`. 
+
 9) Inform the deck.gl Slack channel that a new version of pydeck has been published.
 
 
