@@ -229,7 +229,7 @@ if __name__ == "__main__":
             "traitlets>=4.3.2",
             "jinja2>=2.10.1",
         ],
-        setup_requires=["pytest-runner", "Jinja2>=2.10.1"],
+        setup_requires=["Jinja2>=2.10.1"],
         tests_require=["pytest"],
         data_files=[
             (
